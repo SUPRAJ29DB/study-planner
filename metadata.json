@@ -1,0 +1,7 @@
+{
+  "name": "Study Planner",
+  "description": "Smart study timetable planner for students with subjects, exams, syllabus tracking, countdown timer, and AI assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,173 @@
+{
+  "users": {
+    "usr_suprakash": {
+      "id": "usr_suprakash",
+      "email": "suprakashg21@gmail.com",
+      "name": "Suprakash Ghosh",
+      "photo_url": null,
+      "created_at": "2026-09-12T11:33:43.649Z",
+      "last_login": "2026-09-12T11:40:30.558Z"
+    }
+  },
+  "subjects": [
+    {
+      "id": "s1_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "name": "DBMS",
+      "description": "Database Management Systems",
+      "importance": "High",
+      "color": "#2F5DE3"
+    },
+    {
+      "id": "s2_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "name": "Artificial Intelligence",
+      "description": "Core AI & neural networks",
+      "importance": "High",
+      "color": "#E23B6E"
+    },
+    {
+      "id": "s3_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "name": "Quantum Computing",
+      "description": "Intro to qubits & gates",
+      "importance": "Medium",
+      "color": "#1E8F6F"
+    },
+    {
+      "id": "s4_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "name": "Mathematics",
+      "description": "Linear algebra & calculus",
+      "importance": "Medium",
+      "color": "#C9840F"
+    },
+    {
+      "id": "s5_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "name": "English",
+      "description": "Technical writing",
+      "importance": "Low",
+      "color": "#7A5CFA"
+    }
+  ],
+  "topics": [
+    {
+      "id": "t1_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "subject_id": "s1_usr_suprakash",
+      "name": "ER Model",
+      "description": "Entity-relationship diagrams",
+      "difficulty": "Easy",
+      "importance": "Medium",
+      "est_minutes": 30,
+      "status": "Completed"
+    },
+    {
+      "id": "t2_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "subject_id": "s1_usr_suprakash",
+      "name": "Relational Algebra",
+      "description": "Set operations on relations",
+      "difficulty": "Medium",
+      "importance": "Medium",
+      "est_minutes": 40,
+      "status": "Completed"
+    },
+    {
+      "id": "t3_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "subject_id": "s1_usr_suprakash",
+      "name": "Normalization",
+      "description": "1NF through BCNF",
+      "difficulty": "Hard",
+      "importance": "High",
+      "est_minutes": 60,
+      "status": "In Progress"
+    },
+    {
+      "id": "t4_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "subject_id": "s1_usr_suprakash",
+      "name": "Transactions",
+      "description": "ACID, concurrency control",
+      "difficulty": "Hard",
+      "importance": "High",
+      "est_minutes": 45,
+      "status": "Not Started"
+    },
+    {
+      "id": "t5_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "subject_id": "s2_usr_suprakash",
+      "name": "CNN",
+      "description": "Convolutional networks",
+      "difficulty": "Hard",
+      "importance": "Medium",
+      "est_minutes": 50,
+      "status": "In Progress"
+    },
+    {
+      "id": "t6_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "subject_id": "s2_usr_suprakash",
+      "name": "Backpropagation",
+      "description": "Gradient updates",
+      "difficulty": "Hard",
+      "importance": "High",
+      "est_minutes": 45,
+      "status": "Not Started"
+    },
+    {
+      "id": "t7_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "subject_id": "s3_usr_suprakash",
+      "name": "Qubits",
+      "description": "Superposition basics",
+      "difficulty": "Medium",
+      "importance": "High",
+      "est_minutes": 30,
+      "status": "Completed"
+    }
+  ],
+  "exams": [
+    {
+      "id": "e1_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "subject_id": "s1_usr_suprakash",
+      "name": "DBMS Midterm",
+      "exam_date": "2026-09-17",
+      "importance": "High"
+    },
+    {
+      "id": "e2_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "subject_id": "s2_usr_suprakash",
+      "name": "AI Final",
+      "exam_date": "2026-09-24",
+      "importance": "High"
+    },
+    {
+      "id": "e3_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "subject_id": "s3_usr_suprakash",
+      "name": "Quantum Computing Quiz",
+      "exam_date": "2026-10-02",
+      "importance": "Medium"
+    }
+  ],
+  "study_tasks": [],
+  "study_sessions": [],
+  "reminders": [],
+  "notifications": [
+    {
+      "id": "n1_usr_suprakash",
+      "user_id": "usr_suprakash",
+      "title": "Welcome to Study Planner",
+      "message": "Your timetable priority engine and syllabus tracker are active.",
+      "type": "Study",
+      "is_read": false,
+      "created_at": "2026-09-12T11:33:43.649Z"
+    }
+  ]
+}

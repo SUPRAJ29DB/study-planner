@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Graduation Cap / Book Motif centered in 66dp safe zone (21dp to 87dp) -->
+    <!-- Cap Top Diamond -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M54,27 L78,39 L54,51 L30,39 Z" />
+    <!-- Cap Rim -->
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M38,45 L38,57 C38,65 70,65 70,57 L70,45 L54,53 Z" />
+    <!-- Tassel -->
+    <path
+        android:fillColor="#FBBF24"
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="1.5"
+        android:pathData="M78,39 L82,50 L84,62" />
+    <!-- Open Book / Study Planner Pages -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,67 C40,64 48,65 53,68 L53,82 C48,79 40,78 32,81 Z" />
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M76,67 C68,64 60,65 55,68 L55,82 C60,79 68,78 76,81 Z" />
+    <!-- Checkmark Badge -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M54,62m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M51,62 L53,64 L57,60" />
+</vector>
